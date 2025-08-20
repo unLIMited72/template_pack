@@ -1,13 +1,18 @@
 {
   "files.associations": {
+<<<<<<< HEAD
     "array": "cpp",
     "atomic": "cpp",
     "cctype": "cpp",
     "chrono": "cpp",
+=======
+    "cctype": "cpp",
+>>>>>>> 16cab98 (make a cpp pid control template alike python template)
     "clocale": "cpp",
     "cmath": "cpp",
     "cstdarg": "cpp",
     "cstddef": "cpp",
+<<<<<<< HEAD
     "cstdint": "cpp",
     "cstdio": "cpp",
     "cstdlib": "cpp",
@@ -16,6 +21,32 @@
     "cwctype": "cpp",
     "deque": "cpp",
     "unordered_map": "cpp",
+=======
+    "cstdio": "cpp",
+    "cstdlib": "cpp",
+    "cstring": "cpp",
+    "ctime": "cpp",
+    "cwchar": "cpp",
+    "cwctype": "cpp",
+    "array": "cpp",
+    "atomic": "cpp",
+    "bit": "cpp",
+    "bitset": "cpp",
+    "chrono": "cpp",
+    "compare": "cpp",
+    "complex": "cpp",
+    "concepts": "cpp",
+    "condition_variable": "cpp",
+    "cstdint": "cpp",
+    "deque": "cpp",
+    "forward_list": "cpp",
+    "list": "cpp",
+    "map": "cpp",
+    "set": "cpp",
+    "string": "cpp",
+    "unordered_map": "cpp",
+    "unordered_set": "cpp",
+>>>>>>> 16cab98 (make a cpp pid control template alike python template)
     "vector": "cpp",
     "exception": "cpp",
     "algorithm": "cpp",
@@ -23,9 +54,16 @@
     "iterator": "cpp",
     "memory": "cpp",
     "memory_resource": "cpp",
+<<<<<<< HEAD
     "optional": "cpp",
     "ratio": "cpp",
     "string": "cpp",
+=======
+    "numeric": "cpp",
+    "optional": "cpp",
+    "random": "cpp",
+    "ratio": "cpp",
+>>>>>>> 16cab98 (make a cpp pid control template alike python template)
     "string_view": "cpp",
     "system_error": "cpp",
     "tuple": "cpp",
@@ -33,15 +71,34 @@
     "utility": "cpp",
     "fstream": "cpp",
     "initializer_list": "cpp",
+<<<<<<< HEAD
+=======
+    "iomanip": "cpp",
+>>>>>>> 16cab98 (make a cpp pid control template alike python template)
     "iosfwd": "cpp",
     "iostream": "cpp",
     "istream": "cpp",
     "limits": "cpp",
+<<<<<<< HEAD
     "new": "cpp",
     "ostream": "cpp",
     "sstream": "cpp",
     "stdexcept": "cpp",
     "streambuf": "cpp",
+=======
+    "mutex": "cpp",
+    "new": "cpp",
+    "numbers": "cpp",
+    "ostream": "cpp",
+    "ranges": "cpp",
+    "sstream": "cpp",
+    "stdexcept": "cpp",
+    "stop_token": "cpp",
+    "streambuf": "cpp",
+    "thread": "cpp",
+    "cinttypes": "cpp",
+    "typeindex": "cpp",
+>>>>>>> 16cab98 (make a cpp pid control template alike python template)
     "typeinfo": "cpp"
   }
 }

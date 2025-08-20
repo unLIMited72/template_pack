@@ -50,8 +50,8 @@ class TemplatePID:
   
   def _discrete_LPF(self, u: float, Ts: float) -> float:
     if self.d_tau > 0.0:
-      alpha = self.d_tau / (self.d_tau + Ts)
-      filter = ((1 - alpha) * u) + (alpha * self.d_prev_filter)
+      alpha = Ts / (self.d_tau + Ts)
+      filter = ((1 - alpha) * self.d_prev_filter) + (alpha * u)
     else:
       filter = u
     return filter
